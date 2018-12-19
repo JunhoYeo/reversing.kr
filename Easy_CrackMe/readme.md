@@ -7,7 +7,7 @@ Easy_CrackMe.exe: PE32 executable (GUI) Intel 80386, for MS Windows
 
 ![quick analysis with ida](./1.png)
 
-```
+```c
 int __cdecl sub_401080(HWND hDlg)
 {
   CHAR String; // [esp+4h] [ebp-64h]
@@ -35,7 +35,7 @@ int __cdecl sub_401080(HWND hDlg)
 
 97과 비교하므로
 
-```
+```py
 >>> chr(97)
 'a'
 ```
@@ -62,7 +62,7 @@ String = `?a5yR3versing`
 
 4. 마지막으로 `String != 69`인지 확인
 
-```
+```py
 >>> chr(69)
 'E'
 ```
